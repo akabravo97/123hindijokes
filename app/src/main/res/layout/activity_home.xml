@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_home"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abhijeet.a123jokes.HomeActivity"
+    android:background="@drawable/background">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageButton
+        android:id="@+id/funny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/veryfunny" />
+    <ImageButton
+        android:id="@+id/father"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/fatherson" />
+    <ImageButton
+        android:id="@+id/husband"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/husbandwife" />
+    <ImageButton
+        android:id="@+id/girlfirend"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/girlfriend" />
+        <ImageButton
+            android:id="@+id/teacher"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/teacher" />
+        <ImageButton
+            android:id="@+id/santa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/santa" />
+    </LinearLayout>
+</ScrollView>
